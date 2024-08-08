@@ -23,6 +23,10 @@ public class HomeTask2 {
             System.out.println(iterator.next());
         }
 
+        numbers.add(0, 123);
+        numbers.add(numbers.size(), 34256);
+        System.out.println(numbers);
+
 
 
     }
