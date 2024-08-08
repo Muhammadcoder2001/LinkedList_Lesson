@@ -6,6 +6,11 @@ import java.util.List;
 
 public class HomeTask4 {
 
+    public void removeFirstElement(LinkedList list){
+        list.removeFirst();
+        System.out.println(list);
+    }
+
     public List addTwoList(List list1, List list2){
         LinkedList <Object> result = new LinkedList<>();
         result.addAll(list1);
@@ -37,6 +42,12 @@ public class HomeTask4 {
         LinkedList <Integer> numbers = new LinkedList<>(nums);
 
         System.out.println(numbers);
+        System.out.println(colors);
+        System.out.println("Natija = ");
+        home.removeFirstElement(colors);
+        System.out.println(nums);
+        System.out.println("Natija = ");
+        home.removeFirstElement(nums);
 
     }
 }
