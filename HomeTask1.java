@@ -23,7 +23,8 @@ public class HomeTask1 {
             System.out.println(anilmal_iterator.next());
 
         }
-
-
+        System.out.println("Before clearing process size is " + anilmals.size());
+        anilmals.clear();
+        System.out.println("After clearing process size is equal to " + anilmals.size());
     }
 }
