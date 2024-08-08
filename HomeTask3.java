@@ -15,6 +15,13 @@ public class HomeTask3 {
 
     }
 
+    public void removeFirstLast(LinkedList list){
+        String first =(String) list.removeFirst();
+        String last = (String) list.removeLast();
+        System.out.println("Deleted first element is " + first + "\n" +
+        "Deleted last element is " + last);
+    }
+
     public static void main(String[] args) {
 
         HomeTask3 home = new HomeTask3();
@@ -26,6 +33,7 @@ public class HomeTask3 {
         colors.add("Brown");
         colors.add("Green");
         home.removeElementByIndex(colors, 1);
+        home.removeFirstLast(colors);
 
     }
 }
